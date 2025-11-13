@@ -1,6 +1,6 @@
 # Implementation Plan - Clasificador HAM10000
 
-- [ ] 1. Setup inicial y carga de datos
+- [x] 1. Setup inicial y carga de datos
   - Configurar entorno de Google Colab con imports necesarios (TensorFlow, NumPy, Pandas, Matplotlib, Scikit-learn)
   - Implementar función para montar Google Drive y verificar acceso a los archivos del dataset
   - Crear función `load_images()` que lea hmnist_28_28_RGB.csv y convierta a array numpy de shape (10015, 28, 28, 3)
